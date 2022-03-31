@@ -188,3 +188,11 @@ h3{
 input{
   text-align: center;
 }
+
+@media screen {
+   home {
+    position: -ms-page;
+    width: auto;
+    height: auto;
+  }
+}
