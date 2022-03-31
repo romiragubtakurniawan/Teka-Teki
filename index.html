@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Teka-teki Receh</title>
+</head>
+
+<body>
+  <div id="home">
+    <img src="./Png/Judul.png" alt="" id="judul">
+    <div class="formContainer">
+      <input type="text" id="nama" placeholder="Masukan nama anda">
+
+      <div>
+        <img src="./Png/Mulai.png" alt="" id="start" class="start" onclick="clickFunc('home', 'soal1')">
+      </div>
+    </div>
+  </div>
+
+  <div id="leaderboard">
+
+    <img src="./Png/PapanLeaderBoard.png" alt="" id="bg-leaderboard">
+    <div class="scoreContainer">
+      <h2>Score anda:</h2>
+      <h3 id="currentScore">100</h3>
+    </div>
+
+    <div class="leaderboardContainer">
+      <div class="name"></div>
+      <div class="score"></div>
+    </div>
+    <div>
+      <img src="./Png/MulaiLagi.png" alt="" class="start" onclick="clickFunc('leaderboard', 'home')">
+    </div>
+  </div>
+
+  <div id="soal1" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan1">Pertanyaan1</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban1" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal1', 'soal2')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal1', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal2" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan2">Pertanyaan2</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban2" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal2', 'soal3')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal2', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal3" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan3">Pertanyaan3</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban3" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal3', 'soal4')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal3', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal4" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan4">Pertanyaan4</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban4" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal4', 'soal5')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal4', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal5" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan5">Pertanyaan5</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban5" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal5', 'soal6')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal5', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal6" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan6">Pertanyaan6</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban6" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal6', 'soal7')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal6', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal7" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan7">Pertanyaan7</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban7" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal7', 'soal8')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal7', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal8" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan8">Pertanyaan8</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban8" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal8', 'soal9')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal8', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal9" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan9">Pertanyaan9</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban9" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal9', 'soal10')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal9', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+  <div id="soal10" class="soal">
+    <img src="./Png/Pertanyaan(1).png" alt="" class="bg-pertanyaan">
+    <h1 class="pertanyaan" id="pertanyaan10">Pertanyaan10</h1>
+    <div class="jawabanContainer">
+      <input id="jawaban10" class="inputJawaban" type="text">
+      <div>
+        <img src="./Png/Submit.png" alt="" class="submitButton submit" onclick="clickFunc('soal10', 'leaderboard')">
+        <img src="./Png/Nyerah.png" alt="" class="submitButton nyerah" onclick="clickFunc('soal10', 'nyerah')">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>

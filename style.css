@@ -1,0 +1,190 @@
+body{
+  background-image: url(./Png/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#judul{
+  max-width: 200%;
+  max-height: 30%;
+  position: absolute;
+  z-index: 10;
+  top: 20%;
+}
+
+#welcome{
+  position: absolute;
+  top: 200px;
+  max-width: 50%;
+  max-height: 50%;
+  z-index: 2;
+}
+
+.bg-pertanyaan{
+  position: absolute;
+  top: 200px;
+  max-width: 50%;
+  max-height: auto;
+  top:20%;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+.inputJawaban{
+  position: absolute;
+  z-index: 5;
+  width: 31.5vw;
+  height: 8%;
+  top: 45vh;
+  left:32.5vw;
+  background-color: #470E04;
+  border: 5px solid #FCAB02;
+  font-size: 24px;
+  font-family: 'rockwell';
+  color: white;
+  border-radius: 8px;
+}
+
+#nama{
+  position:absolute;
+  z-index: 5;
+  width: 31.5vw;
+  height: 8%;
+  top: 46vh;
+  left:29.25vw;
+  background-color: #470E04;
+  border: 5px solid #FCAB02;
+  font-size: 24px;
+  font-family: 'rockwell';
+  color: white;
+  border-radius: 8px;
+}
+
+.pertanyaan{
+  font-family: 'rockwell';
+  position: absolute;
+  top: 30vh;
+  color: #FCAB02;
+  max-width: 550px;
+  text-align: center;
+}
+
+.nyerah{
+  left: 30%;
+}
+
+.submit{
+  right: 30%;
+}
+
+.submitButton{
+  position: absolute;
+  top: 60%;
+  z-index: 11;
+  max-width: 17%;
+  max-height: 17%;
+  cursor: pointer;
+  margin-top: 1%;
+}
+
+#start{
+  position: absolute;
+  top: 72%;
+  left: 40%;
+  z-index: 11;
+  max-width: 20%;
+  max-height: 20%;
+  cursor: pointer;
+}
+
+.start{
+  position: absolute;
+  top: 80%;
+  left: 46.5%;
+  z-index: 11;
+  max-width: 15%;
+  max-height: 15%;
+  cursor: pointer;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#soal1, 
+#soal2, 
+#soal3, 
+#soal4,
+#soal5,
+#soal6,
+#soal7,
+#soal8,
+#soal9,
+#soal10,
+#leaderboard{
+  display:none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #FCAB02;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button, input{
+  margin: 5%;
+}
+
+.soal input{
+  margin: 1%;
+}
+
+.leaderboardContainer{
+  position: absolute;
+  top: 40%;
+  display: flex;
+  border: 5px dotted #FCAB02;
+  border-radius: 15px;
+  width: 20%;
+  justify-content: center;
+}
+
+.name, .score{
+  margin: 5%;
+}
+
+#bg-leaderboard{
+  position: absolute;
+  top: 200px;
+  max-width: 50%;
+  max-height: auto;
+  top:20%;
+  z-index: -1;
+  margin-top: -100px;
+}
+
+.scoreContainer{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  top: 20%;
+}
+
+h3{
+  font-size: 50px;
+  margin: 0;
+}
+
+input{
+  text-align: center;
+}
